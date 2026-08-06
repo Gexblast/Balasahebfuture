@@ -1,0 +1,21 @@
+{
+  "name": "gamma-x-full-backend",
+  "version": "1.0.0",
+  "description": "Gamma X full backend - Angel One SmartAPI, Greeks engine, GEX/DEX, premarket future-vs-spot scanner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "speakeasy": "^2.0.0",
+    "web-push": "^3.6.7",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
